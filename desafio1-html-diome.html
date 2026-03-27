@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio de Projeto: Aprendendo HTML</title>
+    <style>
+        /* CSS para título principal */
+        .titulo-principal {
+            color: #2c3e50;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .titulo-principal small {
+            font-size: 60%;
+            color: #e74c3c;
+        }
+
+        h2 {
+            color: #34495e;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        mark {
+            background-color: yellow;
+        }
+
+        blockquote {
+            border-left: 4px solid #2980b9;
+            margin-left: 0;
+            padding-left: 10px;
+            font-style: italic;
+            color: #555;
+        }
+
+        abbr {
+            cursor: help;
+            border-bottom: 1px dotted #000;
+        }
+    </style>
+</head>
+<body>
+    <!-- Título principal com small -->
+    <h1 class="titulo-principal" id="topo">
+        Desafio de Projeto HTML <small>– Estrutura Completa</small>
+    </h1>
+    <hr>
+
+    <!-- Introdução com diversas tags -->
+    <p>O objetivo deste desafio é criar uma página HTML utilizando diversas <strong>tags aprendidas nas aulas</strong>. 
+    Você irá explorar <i>tags para formatação</i>, <u>tags para listas</u>, links e muito mais.</p>
+
+    <p>Algumas palavras podem ser destacadas com <mark>marcações importantes</mark>, ou com <del>texto riscado</del> para indicar alterações.</p>
+
+    <p>Também é interessante usar abreviações como <abbr title="HyperText Markup Language">HTML</abbr> para explicar siglas.</p>
+
+    <!-- Subtítulo 1 -->
+    <h2 id="subtitulo1">1. Títulos e Parágrafos</h2>
+    <hr>
+    <p>A hierarquia de títulos é fundamental: <h1> até <h6>. Por exemplo:</p>
+    <h3>Exemplo de <i>h3</i></h3>
+    <h4>Exemplo de <u>h4</u></h4>
+    <h5>Exemplo de <small>h5 com small</small></h5>
+    <h6>Exemplo de <i><small>h6</small></i></h6>
+
+    <p>Parágrafos (<code>&lt;p&gt;</code>) podem conter <strong>negrito</strong>, <i>itálico</i>, <u>sublinhado</u> e até <sub>subscrito</sub> ou <sup>sobrescrito</sup>.</p>
+
+    <!-- Subtítulo 2 -->
+    <h2 id="subtitulo2">2. Listas e Links</h2>
+    <hr>
+    <p>Podemos criar listas não ordenadas (<code>&lt;ul&gt;</code>) e ordenadas (<code>&lt;ol&gt;</code>):</p>
+
+    <ul>
+        <li>Item de lista não ordenada 1</li>
+        <li>Item de lista não ordenada 2 com <a href="#subtitulo3">link interno</a></li>
+        <li>Item de lista não ordenada 3 com <a href="https://www.w3schools.com/html/" target="_blank">link externo</a></li>
+    </ul>
+
+    <ol>
+        <li>Item de lista ordenada 1</li>
+        <li>Item de lista ordenada 2</li>
+        <li>Item de lista ordenada 3</li>
+    </ol>
+
+    <!-- Subtítulo 3 -->
+    <h2 id="subtitulo3">3. Citações e Fontes</h2>
+    <hr>
+    <p>Para destacar citações ou trechos de outro autor, usamos <blockquote>:</p>
+    <blockquote>"O HTML é a espinha dorsal da web moderna."</blockquote>
+
+    <p>Embora o uso de <font> seja desaconselhado hoje, você pode experimentar para estudo:</p>
+    <p><font color="blue" size="4">Este texto está azul e com tamanho 4 usando &lt;font&gt;.</font></p>
+
+    <!-- Rodapé e referências -->
+    <hr>
+    <h2 id="referencias">Referências</h2>
+    <ul>
+        <li><strong>Site:</strong> <a href="https://www.w3schools.com/html/" target="_blank">W3Schools – HTML Tutorial</a></li>
+        <li><strong>Vídeo:</strong> <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank">Curso de HTML para Iniciantes – YouTube</a></li>
+    </ul>
+
+    <p><a href="#topo">Voltar ao topo</a></p>
+</body>
+</html>
