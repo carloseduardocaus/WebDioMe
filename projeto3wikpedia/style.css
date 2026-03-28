@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* BUSCA */
+form {
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+/* LINKS */
+header nav a {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+/* CATEGORIAS */
+.categorias {
+  background: #eaecf0;
+}
+
+.categorias ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  gap: 15px;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  padding: 20px;
+}
+
+/* CONTEÚDO */
+.conteudo {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+  margin-left: 20px;
+}
+
+/* ARTIGO */
+article {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* PÁGINA DE ARTIGO */
+.pagina-artigo {
+  display: block;
+  padding: 20px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* ACESSIBILIDADE */
+.sr-only {
+  position: absolute;
+  left: -9999px;
+}
